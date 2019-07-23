@@ -6,4 +6,7 @@ for names in family_members:
 
 family_ages = [60, 58, 33, 30]
 for num in family_ages:
-    print(num)
+    if num % 2 == 0: 
+        print(num)
+    else: 
+        print("The number is odd: %s" %num)
