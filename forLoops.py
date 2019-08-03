@@ -10,5 +10,3 @@ for num in family_ages:
         print(num)
     else: 
         print("The number is odd: %s" %num)
-
-#Need to create another loop
